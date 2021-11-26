@@ -1,0 +1,54 @@
+.box{
+    display: flex;
+    max-width: 100%;
+    min-height: 98vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to right,rgb(42, 83, 85),rgb(102, 136, 108));
+}
+.box .formControl{
+    width: 30%;
+    margin: 10px;
+}
+
+.box .formControl .passwordIcon{
+    cursor: pointer;
+    
+}
+.box .formControl .passwordIcon:hover{
+    color:azure
+}
+.box .signupbtn{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5px; 
+   
+}
+
+
+
+
+.box .signupbtn .span{
+    margin-left: 5px;
+}
+
+.LoginButton{
+    margin:5px;
+}
+
+#phonebtn{
+    background-color: rgb(183, 221, 255);
+}
+
+#googlebtn{
+    background-color: rgb(243, 114, 114);
+}
+
+#mailbtn{
+    background-color: rgb(75, 230, 241);
+
+}
